@@ -109,6 +109,20 @@ static const struct defaultserver def[] =
 
 	{"ChatSpike", 0, 0, 0, LOGIN_SASL},
 	{0,			"irc.chatspike.net"},
+	
+		{"ChatSpot",	0},
+#ifdef USE_OPENSSL
+	{0,			"irc.chatspot.we.bs/+7000"},
+	{0,			"king.chatspot.we.bs/+7001"},
+	{0,			"queen.chatspot.we.bs/+7002"},
+	{0,			"ct.chatspot.we.bs/+7003"},
+	{0,			"jhb.chatspot.we.bs/+7004"},
+#endif
+	{0,			"irc.chatspot.we.bs/6667"},
+	{0,			"king.chatspot.we.bs/6665"},
+	{0,			"queen.chatspot.we.bs/6664"},
+	{0,			"ct.chatspot.we.bs/6663"},
+	{0,			"jhb.chatspot.we.bs/6662"},
 
 	{"ChattingAway", 0},
 	{0,			"irc.chattingaway.com"},
